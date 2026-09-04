@@ -16,3 +16,13 @@ Estas regras valem para todo o repositório.
 12. Antes de entregar, execute `npm.cmd run typecheck`, `npm.cmd run lint`, `npm.cmd test`, `npm.cmd run package` e, no Windows, `npm.cmd run make`.
 13. Atualize a documentação relevante quando mudar contratos, migrations, provedores, build ou limitações.
 14. Use apenas assets próprios/simples e estilos descritivos; não instale presets com nomes de artistas vivos.
+
+
+## Tupiniquim Multi-LLM Toolbox
+
+As regras específicas acima permanecem prioritárias. Este `AGENTS.md` também é o contrato canônico para qualquer agente/LLM usado neste repositório.
+
+- Skill universal: `.agents/skills/tupiniquim-toolbox/SKILL.md`.
+- Fonte corporativa: `tupiniquimtechsolution-blip/Tupiniquim_AI_Dev_Studio` → `docs/AI_TOOLBOX/`.
+- Adaptadores `.claude/CLAUDE.md`, `QWEN.md` e `GEMINI.md` não podem contradizer este arquivo.
+- Claude, Qwen, Kimi, DeepSeek, Gemini, GPT, Grok e outros modelos recebem estas regras por meio do harness/agente.
