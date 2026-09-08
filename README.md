@@ -1,5 +1,10 @@
 # Illustrator Studio AI
 
+> [!TIP]
+> **Apresentação do projeto:** [abrir PDF](docs/APRESENTACAO_PROJETO.pdf)  
+> **Qualidade e segurança:** [auditoria Tupiniquim Toolbox](docs/TOOLBOX_AUDIT_2026-09-08.md)
+
+
 Aplicativo desktop independente para Windows que reúne organização de projetos visuais, canvas não destrutivo, máscaras, processamento local e provedores opcionais de geração/edição por IA. A interface principal está em português do Brasil e funciona sem chave de API para importação, máscaras, redimensionamento, conversão, compressão e exportação.
 
 ## Recursos implementados
